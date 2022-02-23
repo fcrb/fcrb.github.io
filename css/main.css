@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Diplomata&display=swap');
 a {
 	background-color: #972022;
 	color: #FFFFFF;
@@ -13,22 +12,22 @@ a:hover {
 	color: #FF0004;
 }
 h1 {
-	background-color: #FF0004;
-	text-align: center;
-	letter-spacing: 80px;
-	font-family: diplomata;
-	font-style: normal;
-	font-weight: 400;
-	color: #450000;
+    background-color: #FF0004;
+    text-align: center;
+    letter-spacing: 45px;
+    font-family: diplomata;
+    font-style: normal;
+    font-weight: 400;
+    color: #450000;
 }
 h1:hover {
-	background-color: #FF0004;
-	text-align: center;
-	letter-spacing: 80px;
-	font-family: diplomata;
-	font-style: normal;
-	font-weight: 400;
-	color: #FAFAFA;
+    background-color: #FF0004;
+    text-align: center;
+    letter-spacing: 45px;
+    font-family: diplomata;
+    font-style: normal;
+    font-weight: 400;
+    color: #FAFAFA;
 }
 body {
 	background-color: #440000;
@@ -55,4 +54,7 @@ img {
     display: block;
 }
 metmuseum {
+}
+footer {
+    background-color: #FF0105;
 }
