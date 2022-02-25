@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Diplomata&display=swap');
 a {
 	background-color: #E6E6E6;
-	color: #FFFFFF;
-	font-family: 'Diplomata', cursive;	
+	color: #FF0004;
+	font-family: 'Diplomata', cursive;
 	font-style: normal;
 	font-weight: 400;
 	text-decoration: none;
@@ -11,6 +11,8 @@ a {
 	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,1.00) 100%);
 	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,1.00) 100%);
 	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,1.00) 100%);
+}
+.row .col-1.offset-1 {
 }
 a:hover {
 	background-color: #972022;
@@ -85,5 +87,36 @@ h1 {
 @media (max-width: 350px){
 h1 {
 	letter-spacing: -10px;
+}
+}
+
+@media (max-width: 610px){
+.queryfix {
+	margin-left: 200px;
+	margin-right: 0px;
+}
+.queryfix2 {
+	margin-left: 100px;
+}
+}
+
+@media (max-width: 463px){
+.queryfix {
+	margin-left: 150px;
+}
+}
+
+@media (max-width: 402px){
+.queryfix {
+	margin-left: 125px;
+}
+}
+
+@media (max-width: 375px){
+.queryfix {
+	margin-left: 120px;
+}
+.queryfix3 {
+	margin-left: 200px;
 }
 }
