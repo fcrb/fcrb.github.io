@@ -120,3 +120,9 @@ h1 {
 	margin-left: 200px;
 }
 }
+
+@media (max-width: 524px){
+.queryfix3 {
+	margin-left: 275px;
+}
+}
